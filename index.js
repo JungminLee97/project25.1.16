@@ -43,3 +43,4 @@ cardsContainer.addEventListener("click", function (event) {
   }
 });
 
+

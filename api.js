@@ -20,3 +20,4 @@ export const options = {
       .catch((err) => console.error("Error fetching movie details:", err));
   };
   
+  
