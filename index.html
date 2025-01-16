@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정민의 첫 프로젝트</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <nav id="navmovie"> 
+    <h1>영화 검색</h1>
+    <input type="moviesname" name="moviesname" class="searchmovie" id="searchInput" placeholder="영화를검색하세요...">
+<br><button class="searchButton" id="searchButton">검색</button>
+<br><button class="btn">북마크 보기</button> 
+</nav>
+</header>
+
+
+<main id="mainbox">
+    <br>
+    <div class="cards">
+    </div>
+</main>
+
+<!-- 포스터, 제목,줄거리,개봉일,평점,북마크추가 -->
+<div class="modal">  
+    <div class=" modal-content">
+        <span class="close">&times</span>
+        <img>
+        <h2>영화제목</h2>
+        <p>줄거리</p>
+        <p>개봉일</p>
+        <p>평점</p>
+    </div>
+</div>
+
+
+<footer></footer>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
+

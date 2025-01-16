@@ -1,0 +1,82 @@
+#navmovie {
+    height: 150px;
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+.searchmovie {
+    width: 800px;
+    padding: 8px;  
+}
+#mainbox {
+    background-color: rgb(215, 215, 219);
+     height: 1800px;
+    
+}
+.container1 { 
+    background-color:  white;
+   width: 200px;
+   height: 350px;
+    
+    
+}
+.imgcard {
+    width: 200px;
+    height: 250px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 60px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: black;
+    color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+.modal-content {
+    background-color: #f9f9f9;
+    margin: 5% auto;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+    height: 80%;
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.modal-content::-webkit-scrollbar {
+    width: 0px;
+}
+.close {
+    position: absolute;
+    right: 2px;
+    top: -5px;
+    font-size: 32px;
+    cursor: pointer;
+}
+.close:hover {
+    color: rgba(0, 0, 0, 0.305)
+   
+}
+.modal-content img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
