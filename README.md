@@ -11,3 +11,8 @@ TMDB TOP RATED MOVIES API 를 FETCH 를 통해 가지고와서
 ID API 를 통해 DISPLAY모달을 연결해 실행시켜준다. 
 <br>
 필터링을 주는 로직을 만들어서 기능을 연결한다.
+<br>
+#
+첫 프로젝트를 공개합니다!!!
+https://jungminlee97.github.io/project25.1.16/
+<br>
