@@ -1,3 +1,4 @@
+// 모듈화 전 나의 코드, 여기서 모듈화 진행함!!
 const options = {
     method: "GET",
     headers: {
@@ -46,6 +47,8 @@ const options = {
     });
   };
   
+
+  
   function filterMovies() {
     const searchTerm = searchInput.value.toLowerCase();
   
@@ -56,6 +59,8 @@ const options = {
     displayMovies(filteredMovies);
   };
   
+
+
   searchButton.addEventListener("click", () => {
     filterMovies();
   });
@@ -87,6 +92,8 @@ const options = {
       .catch((err) => console.error("Error fetching movie details:", err));
   };
   
+
+
   function displayModal(movie) {
     const modalContent = document.querySelector(".modal-content");
   

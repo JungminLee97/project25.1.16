@@ -1,4 +1,4 @@
-
+//영화 데이터 UI display해주는 로직
 export const displayMovies = (movies, cardsContainer) => {
   cardsContainer.innerHTML = "";
     movies.forEach((movie) => {
@@ -16,6 +16,7 @@ export const displayMovies = (movies, cardsContainer) => {
     });
   };
   
+  //  모달창 안에 영화 UI display해주는 로직
   export const displayModal = (movie, modal) => {
     const modalContent = document.querySelector(".modal-content");
   
